@@ -2055,6 +2055,14 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 309d0a7f-8df2-451c-9a39-ac0489948c16)
   )
+  (text "USB Connector" (at 34.29 114.3 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 58f98ee1-393a-421f-bbc5-f26315ad7e12)
+  )
+  (text "MCU" (at 119.38 38.1 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 9720449a-56cb-4065-8d21-730bd1d9916e)
+  )
   (text ">>" (at 89.535 84.455 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a48aec3f-3efb-4635-b8c3-3ee2518698e7)
@@ -2063,7 +2071,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid c6b15c44-a06d-4dfc-b13d-10790dde2bf2)
   )
-  (text "Display" (at 208.28 80.01 0)
+  (text "Display" (at 203.835 80.645 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid d4166c56-8d38-48d8-a326-a48affe7e908)
   )
@@ -2190,7 +2198,7 @@
     )
     (pin "1" (uuid e7643677-ba6d-4925-b050-28e81a85ec37))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR01") (unit 1)
         )
@@ -2215,7 +2223,7 @@
     )
     (pin "1" (uuid 87635063-34a6-4807-9c8b-4030ada1c29f))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR022") (unit 1)
         )
@@ -2241,7 +2249,7 @@
     (pin "1" (uuid d6f5f749-d330-4831-acf1-bca6ffea83f6))
     (pin "2" (uuid b2818154-746a-464b-95af-360d862c058e))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R1") (unit 1)
         )
@@ -2266,7 +2274,7 @@
     )
     (pin "1" (uuid 818c336e-abfa-4006-bda6-d1001eef01f7))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR07") (unit 1)
         )
@@ -2291,7 +2299,7 @@
     )
     (pin "1" (uuid f5bea3b2-2aaf-493e-b2dc-c684bd2001bf))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR027") (unit 1)
         )
@@ -2316,7 +2324,7 @@
     )
     (pin "1" (uuid 8b4cde9e-6b3c-4e73-ba2f-aaead7e1eb1d))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR08") (unit 1)
         )
@@ -2342,7 +2350,7 @@
     (pin "1" (uuid 4fc1cd08-78d1-47be-bdda-bc1cab496a87))
     (pin "2" (uuid 51fddc41-c814-4a04-83e1-d7dc4977e2ac))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C4") (unit 1)
         )
@@ -2368,7 +2376,7 @@
     (pin "1" (uuid 37d1735c-d300-45c7-9ad7-af26c84d8358))
     (pin "2" (uuid 31f8e6db-71a5-4dea-892c-9ecc717aedeb))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "J2") (unit 1)
         )
@@ -2393,7 +2401,7 @@
     )
     (pin "1" (uuid 00159c9e-0ae5-4805-af29-7d5c8b3a9154))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR036") (unit 1)
         )
@@ -2418,7 +2426,7 @@
     )
     (pin "1" (uuid 8d012912-aed4-4e98-bbe5-c4446ebfdb7f))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR019") (unit 1)
         )
@@ -2444,7 +2452,7 @@
     (pin "1" (uuid 330ee1f0-772a-4b12-a26b-efb9d0692061))
     (pin "2" (uuid 9f6250ec-8230-471b-a020-34433d235478))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R2") (unit 1)
         )
@@ -2470,7 +2478,7 @@
     (pin "1" (uuid 9c73169c-fbaf-44d3-890f-4b40bee00e15))
     (pin "2" (uuid 6e54a75d-9194-4ba7-80d3-a659aea2b9e3))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "J1") (unit 1)
         )
@@ -2495,7 +2503,7 @@
     )
     (pin "1" (uuid 3e03e7a3-deea-4411-b7c3-c501da734b81))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR021") (unit 1)
         )
@@ -2520,7 +2528,7 @@
     )
     (pin "1" (uuid 01d97315-e656-49fe-8f83-57a8f42c0bad))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR030") (unit 1)
         )
@@ -2545,7 +2553,7 @@
     )
     (pin "1" (uuid 2f0571fb-3890-468b-9533-f124a04ff086))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR034") (unit 1)
         )
@@ -2570,7 +2578,7 @@
     )
     (pin "1" (uuid df9a55bd-eb33-40b6-aa97-7620357ba793))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR016") (unit 1)
         )
@@ -2595,7 +2603,7 @@
     )
     (pin "1" (uuid c43edb65-6c14-440f-8c57-ad1d94ee7825))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR011") (unit 1)
         )
@@ -2624,7 +2632,7 @@
     (pin "1" (uuid 36f1477e-b390-4eec-9ee7-02226a9a35e5))
     (pin "2" (uuid f7a6164c-4111-4ef4-bd77-4f4d353638a8))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C3") (unit 1)
         )
@@ -2649,7 +2657,7 @@
     )
     (pin "1" (uuid d4f7d7bd-a970-495e-a10a-f2a3bc279ffe))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "TP3") (unit 1)
         )
@@ -2674,7 +2682,7 @@
     )
     (pin "1" (uuid fe383af0-f9a7-42a6-8527-f2ec15fb111d))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "TP6") (unit 1)
         )
@@ -2699,7 +2707,7 @@
     )
     (pin "1" (uuid 1e2b8bf1-397b-445d-b124-46cc6529acd1))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR013") (unit 1)
         )
@@ -2725,7 +2733,7 @@
     (pin "1" (uuid bf2c60ff-6285-44f0-b7ef-97e2fc62451e))
     (pin "2" (uuid 4cfb4700-fc30-4890-943d-8b9815227b63))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R6") (unit 1)
         )
@@ -2757,7 +2765,7 @@
     (pin "4" (uuid 57090c6a-9879-46fe-9fdd-c1dd62ddb8a1))
     (pin "5" (uuid ddd657a3-3a55-40f9-a2d6-080058efbde5))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "U1") (unit 1)
         )
@@ -2782,7 +2790,7 @@
     )
     (pin "1" (uuid 2bd22e6a-0d27-448b-bed5-f89c24cbb73f))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR018") (unit 1)
         )
@@ -2811,7 +2819,7 @@
     (pin "1" (uuid 5c52c740-0c01-4d9f-a05b-b93ec5495a68))
     (pin "2" (uuid 5fcaa74e-8550-4896-9c29-3017299a285e))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "SW1") (unit 1)
         )
@@ -2836,7 +2844,7 @@
     )
     (pin "1" (uuid 95f8df0a-8849-44c4-ab17-d78ce6e5786c))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR014") (unit 1)
         )
@@ -2865,7 +2873,7 @@
     (pin "4" (uuid 4b0684bf-3a83-4a4c-aaba-5bff7048c164))
     (pin "5" (uuid 7fc09d55-57d7-4e97-9784-47d74ac22219))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "J5") (unit 1)
         )
@@ -2891,7 +2899,7 @@
     (pin "1" (uuid a944ad26-a995-4c31-b0f9-3216bbd74e09))
     (pin "2" (uuid 5b88920e-a690-477e-8aa5-0e12fb0050a6))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R5") (unit 1)
         )
@@ -2916,7 +2924,7 @@
     )
     (pin "1" (uuid e8214527-0e18-4f1f-83e9-3af8a2bdf743))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR017") (unit 1)
         )
@@ -2941,7 +2949,7 @@
     )
     (pin "1" (uuid 8dd36d9a-22bb-4b0e-a5f9-0e9e74d5e0d2))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "H4") (unit 1)
         )
@@ -2966,7 +2974,7 @@
     )
     (pin "1" (uuid 8cb186c5-86e9-4601-bc50-421202225e8b))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR015") (unit 1)
         )
@@ -2992,7 +3000,7 @@
     (pin "1" (uuid 09965685-359a-4baf-9536-c54e69b03517))
     (pin "2" (uuid 2e068728-84a3-4d28-84d5-44a117dc4a6b))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R4") (unit 1)
         )
@@ -3017,7 +3025,7 @@
     )
     (pin "1" (uuid ef0aeb02-d839-4a0d-a0d2-937ad4c7e9e3))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR023") (unit 1)
         )
@@ -3042,7 +3050,7 @@
     )
     (pin "1" (uuid 526d3d04-f7e1-49da-9487-54570be3d1c2))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR06") (unit 1)
         )
@@ -3067,7 +3075,7 @@
     )
     (pin "1" (uuid f340dc78-bedf-40f1-9319-fed856df4c80))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "H1") (unit 1)
         )
@@ -3096,7 +3104,7 @@
     (pin "1" (uuid b8cace83-7457-4835-8cbe-0bf64334bfd7))
     (pin "2" (uuid 0e4f5854-fb25-4470-85a1-5f378c375038))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C6") (unit 1)
         )
@@ -3122,7 +3130,7 @@
     (pin "1" (uuid b42a4bff-63d6-4b62-9e55-0e8866012fa1))
     (pin "2" (uuid 7cbdda3e-1e20-4d72-af32-70c0a2283096))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "J3") (unit 1)
         )
@@ -3148,7 +3156,7 @@
     (pin "1" (uuid d0dc4fbc-bbc3-4368-81c8-e9ce90ccb1f4))
     (pin "2" (uuid 0efe8c41-9a64-4dd2-989b-8cf50c8b8cae))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C5") (unit 1)
         )
@@ -3173,7 +3181,7 @@
     )
     (pin "1" (uuid 946246f4-8044-4bb8-93cb-1864146e5d2a))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "H2") (unit 1)
         )
@@ -3198,7 +3206,7 @@
     )
     (pin "1" (uuid 8b43b1b6-12ea-40d8-ae2c-bc616101cf72))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR03") (unit 1)
         )
@@ -3224,7 +3232,7 @@
     (pin "1" (uuid 821ae5f8-4afe-4892-9d5f-f5ca7ee347e6))
     (pin "2" (uuid 11f22ab1-ff3c-457f-8266-0396cbd3a892))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C2") (unit 1)
         )
@@ -3249,7 +3257,7 @@
     )
     (pin "1" (uuid d8da0cc3-a564-464b-961d-5a9c6570cadd))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR026") (unit 1)
         )
@@ -3275,7 +3283,7 @@
     (pin "1" (uuid e520a3f9-20e5-4aea-84cb-ddc052781d65))
     (pin "2" (uuid e4beb7e8-4221-42ba-b37a-6c7b21a49c02))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R3") (unit 1)
         )
@@ -3301,7 +3309,7 @@
     (pin "1" (uuid efb54d9c-881b-47fb-8837-51f27abb82ed))
     (pin "2" (uuid 9c35e861-a9fa-4988-8583-1f83d20ad8e8))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R8") (unit 1)
         )
@@ -3326,7 +3334,7 @@
     )
     (pin "1" (uuid a520d415-a65a-44db-a7c2-0b2d0f389a0f))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "TP4") (unit 1)
         )
@@ -3351,7 +3359,7 @@
     )
     (pin "1" (uuid 8033f52a-46e9-478b-ab78-717b5a53410a))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR033") (unit 1)
         )
@@ -3376,7 +3384,7 @@
     )
     (pin "1" (uuid 5384378f-8e3d-49c8-98ba-74f18cff6c51))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "TP5") (unit 1)
         )
@@ -3401,7 +3409,7 @@
     )
     (pin "1" (uuid 2c30bcc2-5ea1-4ff6-8684-a497e5048f34))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "TP1") (unit 1)
         )
@@ -3431,7 +3439,7 @@
     (pin "5" (uuid bc3c6097-3a2e-4f0f-bebd-8f8609ae04aa))
     (pin "6" (uuid 02472e7c-65fa-40ba-a342-3f0de8013053))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "U4") (unit 1)
         )
@@ -3456,7 +3464,7 @@
     )
     (pin "1" (uuid b01abac1-2d98-4c4e-930e-4b5813bb516b))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR028") (unit 1)
         )
@@ -3489,7 +3497,7 @@
     (pin "8" (uuid a48cbdd4-eb15-4c50-a650-a7ad5d9918e2))
     (pin "9" (uuid d4519cde-cc10-4670-ba12-590de8373fb8))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "U3") (unit 1)
         )
@@ -3514,7 +3522,7 @@
     )
     (pin "1" (uuid f69548c4-90d4-4053-ae58-83fad975a86f))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR05") (unit 1)
         )
@@ -3539,7 +3547,7 @@
     )
     (pin "1" (uuid dd77039a-4763-4acf-a007-645dbca430ec))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "H3") (unit 1)
         )
@@ -3598,7 +3606,7 @@
     (pin "8" (uuid a34dffad-99a6-4c95-b8bf-7e589ff91925))
     (pin "9" (uuid 22814835-82f1-4700-ae0e-c486e226c95f))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "U2") (unit 1)
         )
@@ -3624,7 +3632,7 @@
     (pin "1" (uuid 612e58b7-7e2e-4f30-bc5b-8727e931a988))
     (pin "2" (uuid 924195e6-f518-4f08-a280-ec5ea861cdfb))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "R7") (unit 1)
         )
@@ -3649,7 +3657,7 @@
     )
     (pin "1" (uuid 125b9fe1-6377-46b2-8551-eadc8893627c))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR032") (unit 1)
         )
@@ -3674,7 +3682,7 @@
     )
     (pin "1" (uuid a29290ea-1fae-400b-ae05-68c48b7ec0c1))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR025") (unit 1)
         )
@@ -3707,7 +3715,7 @@
     (pin "5" (uuid 64127f99-2d68-41b2-9531-aca38abc8558))
     (pin "6" (uuid f9b42e9d-a394-4cda-8731-080785074bf1))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "J4") (unit 1)
         )
@@ -3732,7 +3740,7 @@
     )
     (pin "1" (uuid 61523430-594f-4412-acb3-b557985589d4))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR020") (unit 1)
         )
@@ -3758,7 +3766,7 @@
     (pin "1" (uuid aea69799-a892-4097-bdf2-b5f75bdc64a8))
     (pin "2" (uuid 54c89c8b-e931-49a4-ae10-99f405563332))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C7") (unit 1)
         )
@@ -3783,7 +3791,7 @@
     )
     (pin "1" (uuid a5c928db-0645-4272-97fc-a4828d13d3e9))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR024") (unit 1)
         )
@@ -3808,7 +3816,7 @@
     )
     (pin "1" (uuid e7de7b69-389b-463e-b27e-907719f546cd))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR09") (unit 1)
         )
@@ -3833,7 +3841,7 @@
     )
     (pin "1" (uuid a142b396-e43c-43e8-a52f-f19a79833552))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR02") (unit 1)
         )
@@ -3859,7 +3867,7 @@
     (pin "1" (uuid 170c9ea3-dafd-476e-a686-e819fd710ca2))
     (pin "2" (uuid 2c9e48e3-73eb-4fa0-822a-9e112dd038f7))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "C1") (unit 1)
         )
@@ -3884,7 +3892,7 @@
     )
     (pin "1" (uuid 87e98ac5-9b94-4edf-a1d8-1b535130e91a))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR031") (unit 1)
         )
@@ -3909,7 +3917,7 @@
     )
     (pin "1" (uuid 7ef4f67b-fc11-44da-af63-5148bca61a37))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "TP2") (unit 1)
         )
@@ -3934,7 +3942,7 @@
     )
     (pin "1" (uuid af5b4f99-40d2-4a1a-8c15-bff0aa9485fe))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR037") (unit 1)
         )
@@ -3959,7 +3967,7 @@
     )
     (pin "1" (uuid 6cd07e9c-c297-4b42-9f12-1670ca88e653))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR035") (unit 1)
         )
@@ -3984,7 +3992,7 @@
     )
     (pin "1" (uuid 489ed230-2dbd-48e3-a75b-810dc9c121fc))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR029") (unit 1)
         )
@@ -4009,7 +4017,7 @@
     )
     (pin "1" (uuid c1070262-51f4-4919-acf2-7ae193032bfa))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR010") (unit 1)
         )
@@ -4034,7 +4042,7 @@
     )
     (pin "1" (uuid 34960a9b-8f48-4762-9aff-72186f783bc2))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR04") (unit 1)
         )
@@ -4059,7 +4067,7 @@
     )
     (pin "1" (uuid 94ad6a09-afd7-46c4-91c7-a58fc4ceecb3))
     (instances
-      (project "UartTempSens"
+      (project "SerialTempSens"
         (path "/7fad0b82-e395-4fe2-b913-ae76f2a97a0e"
           (reference "#PWR012") (unit 1)
         )

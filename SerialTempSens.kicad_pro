@@ -508,10 +508,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "personal-lib"
+    ]
   },
   "meta": {
-    "filename": "UartTempSens.kicad_pro",
+    "filename": "SerialTempSens.kicad_pro",
     "version": 1
   },
   "net_settings": {
